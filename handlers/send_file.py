@@ -11,9 +11,7 @@ from handlers.helpers import str_to_b64
 async def reply_forward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f""
-            f""
-            f"",
+            f"**Thank You For Using CineSubz ❤️**",
             disable_web_page_preview=True, quote=True)
         
     except FloodWait as e:
